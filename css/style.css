@@ -1,0 +1,558 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ========================= Header ========================= */
+
+.logo{
+    color: rgba(1, 21, 85, 0.7);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.container-fluid{
+    background: url(../images/header-bg.jpg);
+    background-size: cover;
+    height: 825px;
+}
+
+header .navbar{
+    height: 161px;
+    background: white !important;
+}
+
+header h1{
+    font-weight: 100;
+    color: rgba(98, 98, 98, 0.94);
+    font-size: 50px;
+    margin: 115px 0 10px;
+}
+
+header h1 span{
+    color: rgba(1, 21, 86, 0.94);
+    font-weight: 700;
+}
+
+header p{
+    font-weight: 300;
+    color: black;
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 700px;
+}
+
+header .col{
+    background: white;
+    min-height: 388px;
+    max-width: 376px;
+    margin-top: 96px;
+    padding: 0 53px 0 29px;
+}
+
+header .col .form-control{
+    border: none;
+    border-bottom: 1px solid #808080;
+    border-radius: 0%;
+    padding: 0;
+    font-weight: 400;
+    color: black;
+    font-size: 15px;
+}
+
+header .col .form-control::placeholder{
+    color: #808080;
+}
+
+header .col form label{
+    font-weight: 400;
+    color: #808080;
+    font-size: 15px;
+    margin: 0;
+    margin-top: 22px;
+}
+
+header .col form textarea{
+    resize: none;
+}
+
+#InputText{
+    margin-bottom: 35px;
+}
+
+header .col form h3{
+    font-size: 20px;
+    color: rgba(1, 21, 86, 0.9);
+    font-weight: 400;
+    line-height: 20px;
+    margin:32px 0 50px;
+}
+
+header .col form .btn{
+    width: 240px;
+    height: 55px;
+    border-radius: 27px;
+    background: #011556;
+    color: white;
+    font-weight: 700;
+    margin: auto;
+    align-items: center;
+}
+
+/* ========================= Section 1 ========================= */
+
+.sec1 h2{
+    font-weight: 900;
+    font-size: 50px;
+    color: rgba(1, 21, 86, 0.8);
+    margin: 60px 0 185px;
+}
+
+.sec1 .col-6 a{
+    font-weight: 700;
+    font-size: 36px;
+    color: #011556;
+    margin: 0 auto 70px;
+    border-bottom: 2px solid #011556;
+    line-height: 32px;
+}
+
+.sec1 .col-6 img{
+    width: 231px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto  36px;
+}
+
+/* ========================= Section 2 ========================= */
+
+.sec2{
+    background: #fbfbfb;
+    padding: 60px 0 70px;
+}
+
+.sec2 .col-12{
+    position: relative;
+}
+
+.sec2 h2{
+    font-weight: 900;
+    font-size: 50px;
+    color: rgba(1, 21, 86, 0.8);
+    margin: 0 auto;
+}
+
+.sec2 .sec2-p{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 40px 15px 110px;
+    max-width: 760px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.sec2 .col-auto img{
+    width: 360px;
+    height: 360px;
+    margin-bottom: 15px;
+}
+
+.sec2 .col-auto .img-hover{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(204, 210, 230, 0.71);
+    transform: scale(0) rotateY(0deg);
+    transition: .7s;
+    width: 360px;
+    height: 360px;
+    padding: 13% 22% 8%;
+    top: 0;
+}
+
+.sec2 .col-auto:hover .img-hover{
+    transform: scale(1) rotateY(360deg);
+}
+
+.sec2 .col-auto .img-hover p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #011556;
+    line-height: 24px;
+}
+
+.sec2 .col-auto .img-hover h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: #011556;
+}
+
+.sec2 .col-auto .img-hover button{
+    border: none;
+    background: #011556;
+    width: 143px;
+    height: 49px;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
+
+/* ========================= Section 3 ========================= */
+
+.sec3 h2{
+    font-weight: 900;
+    font-size: 50px;
+    color: rgba(1, 21, 86, 0.8);
+    margin: 50px auto;
+}
+
+.sec3 p{
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 15px 250px;
+}
+
+/* ========================= Section 4 ========================= */
+
+.sec4{
+    background: #fbfbfb;
+}
+
+.sec4 h2{
+    font-weight: 900;
+    font-size: 50px;
+    color: rgba(1, 21, 86, 0.8);
+    margin: 65px auto 0;
+}
+
+.sec4 .sec4-p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 35px auto 150px;
+    max-width: 720px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.sec4 .col-auto{
+    width: 360px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.sec4 .col-auto img{
+    width: 360px;
+    height: 445px;
+    border: 1px solid #d7d7d7;
+}
+
+.sec4 .col-auto .img-hover{
+    background: white;
+    top: 380px;
+    text-align: center;
+    width: 262px;
+    position: absolute;
+    left: 50%;
+    margin-left: -131px;
+    box-shadow: 0 5px 10px #f0f0f0;    
+    transition: .3s;
+}
+
+.sec4 .col-auto .img-hover:hover{
+    transform: scale(1.1);
+}
+
+.sec4 .col-auto .img-hover h3{
+    font-weight: 500;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.sec4 .col-auto .img-hover p{
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(1, 21, 86, 0.7);
+}
+
+/* ========================= Section 5 ========================= */
+
+.sec5{
+    padding: 60px 0 70px;
+}
+
+.sec5 h2{
+    font-weight: 900;
+    font-size: 50px;
+    color: rgba(1, 21, 86, 0.8);
+    margin-bottom: 75px;
+}
+
+.sec5 .sec5-p{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0 15px 55px;
+}
+
+.sec5 .col-auto{
+    position: relative;
+    box-shadow: 0 0 20px #e8e8e8;
+    width: 536px;
+    height: 271px;
+    padding: 87px 40px 0;
+    margin-top: 60px;
+}
+
+.sec5 .col-auto img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.sec5 .col-auto p{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+}
+
+.sec5 .col-auto .author{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.sec5 .col-auto .stars .fa{
+    font-size: 12px;
+    color: #ffef3b;
+}
+
+/* ========================= footer ========================= */
+
+footer{
+    background: #f7f7f7;
+    height: 261px;
+}
+
+footer button{
+    width: 240px;
+    height: 55px;
+    background: #011556;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: white;
+    border: none !important;
+    border-radius: 28px !important;
+    margin: 70px auto 30px !important;
+}
+
+footer .icons{
+    display: flex;
+    width: 191px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 55px;
+}
+
+footer .icons a{
+    color: white;
+}
+
+footer .icons .fa{
+    font-size: 20px;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background: #d3d3d3;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 53px;
+    top: 50%;
+    right: 50%;
+    transition: .4s;
+}
+
+footer .icons .fa:hover{
+    background: #011556;
+}
+
+footer p{
+    color: #04040493;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+@media(max-width: 1200px){ /* LG */
+    h2{
+        font-size: 30px !important;
+    }
+    header .col{
+        margin-top: 56px;
+    }
+    header h1{
+        font-size: 40px;
+    }
+    .sec1 .col-3 a{
+        font-size: 30px;
+    }
+    .sec2 .col-auto img{
+        width: 300px;
+        height: 300px;
+    }
+    .sec2 .col-auto .img-hover{
+        width: 300px;
+        height: 300px;
+        padding: 13% 18% 8%;
+    }
+    .sec4 .col-auto{
+        width: 300px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 70px;
+    }
+    .sec4 .col-auto img{
+        width: 300px;
+        height: 380px;
+    }
+    .sec4 .col-auto .img-hover{
+        top: 320px;
+        width: 200px;
+        margin-left: -100px;
+    }
+    .sec4 .col-auto .img-hover h3{
+        font-size: 20px;
+    }
+    .sec4 .col-auto .img-hover p{
+        font-size: 18px;
+    }
+    .sec4 .row{
+        margin: 0 15px;
+    }
+    .sec5 .col-auto{
+        padding: 67px 20px 0;
+        width: 400px;
+    }
+}
+
+@media(max-width: 992px){ /* MD */
+    .sec2 .col-auto .img-hover{
+        padding: 55px 55px 30px;
+    }
+    .sec4 .col-auto{
+        width: 360px;
+    }    
+    .sec4 .col-auto img{
+        width: 360px;
+        height: 445px;
+    }    
+    .sec4 .col-auto .img-hover{
+        top: 380px;
+        width: 262px;
+        margin-left: -131px;
+    }
+    .sec4 .col-auto .img-hover h3{
+        font-size: 28px;
+    }
+    .sec4 .col-auto .img-hover p{
+        font-size: 24px;
+    }
+    .sec4 .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec5 .col-auto{
+        padding: 87px 40px 0;
+        width: 70%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .sec5 .col-auto p{
+        font-size: 14px;
+    }
+    
+}
+
+@media(max-width: 768px){ /* SM */
+    header h1{
+        margin: 65px 0 10px;
+    }
+    .sec3 p{
+        font-size: 18px;
+        margin: 0 15px 150px;
+    }
+    .sec3 h2{
+        text-align: center;
+        padding: 0 10px;
+    }
+}
+
+@media(max-width: 576px){ /* XM */
+    header h1{
+        font-size: 30px;
+    }
+    header p{
+        font-size: 14px;
+    }
+    header .logo{
+        font-size: 29.5px;
+    }
+    .sec1 .col-6 a{
+        font-size: 20px;
+        line-height: 19px;
+    }
+    .sec1 .col-6 a{
+        margin: 0 auto 40px;
+    }   
+    .sec1 .col-6 img{
+        margin: 0 auto  20px
+    }
+    .sec1 h2{
+        margin: 40px 0 100px;
+    }
+    .sec2 h2{
+        font-size: 24px !important;
+    }
+    .sec2 .sec2-p{
+        line-height: 20px;
+    }
+    .sec4 .col-auto{
+        width: 270px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 70px;
+    }
+    .sec4 .col-auto img{
+        width: 270px;
+        height: 340px;
+    }
+    .sec4 .col-auto .img-hover{
+        top: 300px;
+        width: 180px;
+        margin-left: -90px;
+    }
+    .sec4 .col-auto .img-hover h3{
+        font-size: 20px;
+    }
+    .sec4 .col-auto .img-hover p{
+        font-size: 18px;
+    }
+    .sec5 .col-auto{
+        padding: 67px 40px 0;
+        width: 90%; 
+    }
+    footer .icons{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
